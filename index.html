@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <style>
+        * {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(assest/coffee2.avif);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+		width: ;
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+}
+
+.section{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section:hover {
+
+  	background: #fff;
+	color: #333;
+  display: inline-block;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+
+}
+     </style>
+</head>
+<body>
+   <header>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="https://i.postimg.cc/mg4rWBmv/logo.png" alt="">
+            
+        </div>
+<ul class="nav-area">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+
+</ul>
+</div>
+<div class="welcome-text">
+        <h1>
+WELCOME TO OUR <span>Online Coffee Store</span></h1>
+<a href="#">Contact US</a>
+    </div>
+</header> 
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-12 text-center text-white">
+            <h2 class="section">We Serve</h2> 
+        </div>
+    </div>
+</div>
+
+<div class="row">
+      <div class="col-lg-3">
+        <div class="card text-center text-white">
+          <div class="card-body bg-dark">
+            <img src="assest/flat white.avif" alt="not fond" class="img-fluid rounded-circle" width="50%">
+            <h3 class="card-title py-2 text-white">Flat White</h3>
+            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quasi neque quidem
+              tempora commodi placeat corporis illum vero reiciendis perferendis rem nemo similique delectus ipsum,
+              earum quae maiores minima odit!</p>
+
+           <button class="btn btn-outline-success" type="submit">Order now</button>
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3">
+        <div class="card text-center text-white">
+          <div class="card-body bg-dark">
+            <img src="assest/capp.avif" alt="not fond" class="img-fluid rounded-circle" width="50%">
+            <h3 class="card-title py-2 text-white">Cappucino</h3>
+            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quasi neque quidem
+              tempora commodi placeat corporis illum vero reiciendis perferendis rem nemo similique delectus ipsum,
+              earum quae maiores minima odit!</p>
+              <button class="btn btn-outline-success" type="submit">Order now</button>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card text-center text-white">
+          <div class="card-body bg-dark">
+            <img src="assest/cold cofffee.avif" alt="not fond" class="img-fluid rounded-circle" width="50%">
+            <h3 class="card-title py-2 text-white">Cold Coffee</h3>
+            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quasi neque quidem
+              tempora commodi placeat corporis illum vero reiciendis perferendis rem nemo similique delectus ipsum,
+              earum quae maiores minima odit!</p>
+
+           <button class="btn btn-outline-success" type="submit">Order now</button>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card text-center text-white">
+          <div class="card-body bg-dark">
+            <img src="assest/hot coffee.avif" alt="not fond" class="img-fluid rounded-circle" width="50%">
+            <h3 class="card-title py-2 text-white" >Hot Coffee</h3>
+            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quasi neque quidem
+              tempora commodi placeat corporis illum vero reiciendis perferendis rem nemo similique delectus ipsum,
+              earum quae maiores minima odit!</p>
+
+           <button class="btn btn-outline-success " type="submit">Order now</button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+<section id="about" class="about-section-padding my-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 col-12">
+          <div class="about-img">
+            <img src="assest/coffee3.avif">
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-12 pr-5">
+          <div class="about-text">
+            <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque deleniti sequi molestias iure
+              temporibus qui repudiandae, nemo provident tempora eius libero id iste voluptates earum sit laborum optio
+              est illo?</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <div class="row mx-4">
+      <div class="col-lg-4 text-white">
+        <h3>Contact Us</h3>
+        <p>location</p>
+        <p>+01 1234567890</p>
+        <p>coffee@gmail.com</p>
+        
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 text-white">
+        <h3>Coffee corner</h3>
+    <p>We provide you the world best coffee here</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 text-white">
+        <h3>Opening Hours</h3>
+        <p>Everyday</p>
+        <p>9:00am-1:00pm</p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+
+  
+ 
+    
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2025 My Website. All Rights Reserved.</p>
+  </footer>
+    
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
